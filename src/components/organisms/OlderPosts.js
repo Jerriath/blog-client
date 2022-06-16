@@ -2,12 +2,23 @@
 import './organisms.css';
 
 
+// Importing node modules
+import he from 'he';
+
+
 // Importing necessary components
 import PostRow from '../molecules/PostRow';
 
 
 // Component that is being exported
 const OlderPosts = (props) => {
+
+    let posts = props.posts;
+
+    posts.forEach(element => {
+        element.title = he.decode(element.title);
+    });
+
     return(
         <section className='old-section' >
             <h1 className='old-header' >Older Posts</h1>
