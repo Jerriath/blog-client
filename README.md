@@ -8,7 +8,7 @@ As said before, this application was written in ReactJS with the help of create-
 
 ## Client
 
-As said above, this application can only send get requests for retrieving posts and posting comments to the backend. There is no way to create posts, delete posts, etc. in this application, and even if someone tries to do it indirectly, the routes require a jwt sent in the headers. You can checkout the CMS [here](https://github.com/Jerriath/blog-cms)
+As said above, this application can only send get requests for retrieving posts and posting comments to the backend. There is no way to create posts, delete posts, etc. in this application, and even if someone tries to do it indirectly, the routes require a jwt sent in the headers. You can checkout the CMS [here](https://github.com/Jerriath/blog-cms). You can also checkout the live demo [here](https://blog-client-jerriath.vercel.app).
 
 # Backend
 
